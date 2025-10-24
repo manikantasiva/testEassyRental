@@ -145,16 +145,27 @@ The app currently uses mock JSON data for:
 
 ## 📱 Screenshots
 
-### Authentication Flow
-- Splash Screen with app branding
-- Onboarding with feature highlights
-- Login with Username Password 
+### iOS App Screenshots
+All screenshots are taken on iPhone 16 Plus simulator and showcase the complete app functionality.
 
-### Main App Flow
-- Home screen with featured cars
-- Car list 
-- Detailed car information
-- Booking form with date/time selection
-- Booking confirmation screen
+#### Authentication Flow
+- [Splash Screen](screenshots/tst_ios_screens/Screenshot%202025-10-24%20at%2012.11.17%20PM.png)
+- [Onboarding Screen](screenshots/tst_ios_screens/Screenshot%202025-10-24%20at%2012.11.29%20PM.png)
+- [Login Screen](screenshots/tst_ios_screens/Screenshot%202025-10-24%20at%2012.11.43%20PM.png)
+
+#### Main App Flow
+- [Home Screen](screenshots/tst_ios_screens/Screenshot%202025-10-24%20at%2012.12.22%20PM.png) - Featured cars and quick access
+- [Car List Screen](screenshots/tst_ios_screens/Screenshot%202025-10-24%20at%2012.12.36%20PM.png) - Browse all available cars
+- [Car Details Screen](screenshots/tst_ios_screens/Screenshot%202025-10-24%20at%2012.13.02%20PM.png) - Detailed car information
+- [Car Details Features](screenshots/tst_ios_screens/Screenshot%202025-10-24%20at%2012.13.13%20PM.png) - Car features and specifications
+- [Booking Form](screenshots/tst_ios_screens/Screenshot%202025-10-24%20at%2012.13.44%20PM.png) - Date/time selection
+- [Booking Confirmation](screenshots/tst_ios_screens/Screenshot%202025-10-24%20at%2012.13.58%20PM.png) - Booking success screen
+- [Profile Screen](screenshots/tst_ios_screens/Screenshot%202025-10-24%20at%2012.14.17%20PM.png) - User account management
+
+#### Additional Screenshots
+- [Simulator Overview](screenshots/tst_ios_screens/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202025-10-24%20at%2012.13.30.png) - Complete app overview
+
+### View All Screenshots
+Browse all screenshots in the [screenshots/tst_ios_screens/](screenshots/tst_ios_screens/) directory.
 
 
