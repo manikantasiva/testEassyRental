@@ -2,7 +2,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../data/repositories/car_repository.dart';
 import '../../domain/entities/car_entity.dart';
 
-// Dedicated states for car details
 abstract class CarDetailsState {}
 
 class CarDetailsInitial extends CarDetailsState {}
@@ -19,7 +18,6 @@ class CarDetailsError extends CarDetailsState {
   CarDetailsError({required this.message});
 }
 
-// Dedicated cubit for car details only
 class CarDetailsCubit extends Cubit<CarDetailsState> {
   final CarRepository _carRepository;
 

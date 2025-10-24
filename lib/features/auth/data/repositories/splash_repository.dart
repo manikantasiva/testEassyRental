@@ -31,7 +31,6 @@ class SplashRepositoryImpl implements SplashRepository {
         }
       }
     } catch (e) {
-      //  ####=>On error, navigate to onboarding after 2 seconds
       await Future.delayed(const Duration(seconds: 2));
       if (context.mounted) {
         _navigationRepository.navigateToOnboarding(context);

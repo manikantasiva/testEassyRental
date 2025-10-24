@@ -4,26 +4,23 @@ A modern car rental application built with Flutter, featuring a clean architectu
 
 ## 📱 Features
 
-### 🔐 Authentication
+###  Authentication
 - **Splash Screen** - App initialization and loading
 - **Onboarding Screen** - Welcome introduction for new users
 - **Login Screen** - User authentication with mock data
 - **OTP Verification** - Secure phone number verification
 
-### 🏠 Home & Navigation
+###  Home & Navigation
 - **Home Screen** - Featured cars and quick access
-- **Bottom Navigation** - Easy app navigation
-- **Profile Screen** - User account management
+- **Profile Screen** - User account management, logout
 
-### 🚙 Car Management
+### Car Management
 - **Car List Screen** - Browse all available cars
 - **Car Details Screen** - Detailed car information with features
-- **Car Search & Filter** - Find cars by brand, price, etc.
 
-### 📅 Booking System
+###  Booking System
 - **Booking Form** - Car rental booking with date/time selection
 - **Booking Confirmation** - Booking success and details
-- **Booking History** - View past and current bookings
 
 ## 🏗️ Architecture
 
@@ -129,11 +126,11 @@ lib/
 ### Mock Data
 The app currently uses mock JSON data for:
 - **5 Demo Users** - Pre-configured user accounts
-- **Car Inventory** - Sample car data with details
+- **10 Car List Data** - Sample car data with details
 - **Booking Data** - Mock booking information
 
 ### API Integration Ready
-- **Dio HTTP Client** - Configured for API calls
+- **Dio HTTP Client** - Configured for API calls a sample
 - **Repository Pattern** - Easy to switch from mock to real API
 - **Error Handling** - Comprehensive error management
 

@@ -59,7 +59,7 @@ class AuthRepositoryImpl implements AuthRepository {
 
         if (token != null && email != null && name != null) {
           return UserEntity(
-            id: '1', //  ####=>You might want to get this from storage too
+            id: '1', 
             email: email,
             name: name,
             token: token,

@@ -13,7 +13,6 @@ class CarDetailsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Load car details when screen is built
     WidgetsBinding.instance.addPostFrameCallback((_) {
       context.read<CarDetailsCubit>().getCarById(carId);
     });
@@ -227,7 +226,6 @@ class CarDetailsScreen extends StatelessWidget {
               ),
             );
           } else {
-            // Show loading for CarDetailsLoading and CarDetailsInitial
             return const Center(
               child: CircularProgressIndicator(
                 color: AppColors.primary,

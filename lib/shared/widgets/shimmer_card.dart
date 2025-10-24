@@ -65,40 +65,34 @@ class CarCardShimmer extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         child: Row(
           children: [
-            // Image shimmer
             ShimmerCard(
               width: 120,
               height: 100,
               borderRadius: BorderRadius.circular(12),
             ),
             const SizedBox(width: 16),
-            // Content shimmer
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Title shimmer
                   ShimmerCard(
                     height: 20,
                     width: double.infinity,
                     borderRadius: BorderRadius.circular(4),
                   ),
                   const SizedBox(height: 8),
-                  // Subtitle shimmer
                   ShimmerCard(
                     height: 16,
                     width: 120,
                     borderRadius: BorderRadius.circular(4),
                   ),
                   const SizedBox(height: 8),
-                  // Price shimmer
                   ShimmerCard(
                     height: 18,
                     width: 80,
                     borderRadius: BorderRadius.circular(4),
                   ),
                   const SizedBox(height: 12),
-                  // Button shimmer
                   ShimmerCard(
                     height: 36,
                     width: 100,
@@ -122,7 +116,6 @@ class CarDetailsShimmer extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         children: [
-          // Hero image shimmer
           ShimmerCard(
             height: 250,
             width: double.infinity,
@@ -136,28 +129,24 @@ class CarDetailsShimmer extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // Title shimmer
                 ShimmerCard(
                   height: 28,
                   width: double.infinity,
                   borderRadius: BorderRadius.circular(4),
                 ),
                 const SizedBox(height: 8),
-                // Rating shimmer
                 ShimmerCard(
                   height: 20,
                   width: 100,
                   borderRadius: BorderRadius.circular(4),
                 ),
                 const SizedBox(height: 16),
-                // Price shimmer
                 ShimmerCard(
                   height: 24,
                   width: 120,
                   borderRadius: BorderRadius.circular(4),
                 ),
                 const SizedBox(height: 20),
-                // Features shimmer
                 ...List.generate(
                   3,
                   (index) => Padding(
@@ -180,7 +169,6 @@ class CarDetailsShimmer extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 20),
-                // Book button shimmer
                 ShimmerCard(
                   height: 50,
                   width: double.infinity,
